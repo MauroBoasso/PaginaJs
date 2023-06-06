@@ -1,0 +1,92 @@
+body{
+    margin: 0px;
+    background-image: url("imagenes/fondo2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    background-color: rgb(24, 23, 23);
+    color: white;
+    margin: 0px;
+    padding: 10px 0px 10px 20px;
+    
+}
+h1 a{
+    text-decoration: none;
+    font-size: medium;
+    padding: 5px;
+    background-color: orange;
+    color: black;
+    position: absolute;
+    left: 95%;
+}
+h1 a:hover{
+    background-color: rgb(250, 188, 72);
+    color:white;
+}
+ul{
+    display: flex;
+    margin: 0px;
+    background-color: orange;
+    font-size: larger;
+    text-decoration: none;
+    justify-content: space-around;
+    border-bottom:solid 1px rgb(125, 125, 125);
+}
+li {
+    display:flex;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    background-color: orange;
+    padding: 20px 10px 20px 10px;
+    
+     
+
+}
+.activo a{
+    background-color: rgb(250, 188, 72);
+    color:white;
+}
+li a:hover{
+    background-color: rgb(250, 188, 72);
+    color:white;
+
+}
+
+.content{
+    background-color: #aaa;
+    padding: 20px 0px 20px 20px;
+    font-size: larger;
+    
+
+}
+button{
+    padding: 5px 25px 5px 25px;
+    background-color: orange;
+    border: solid 1px black;
+    border-radius: 6px;
+}
+button:active{
+    background-color: rgb(250, 188, 72);
+}
+p{
+    color: grey;
+    font-size:medium;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+.generador{
+    display: flex;
+}
+.result{
+    background-color: white;
+    margin-left: 20px;
+    width: 50px;
+    height: 30px;
+    font-size: larger;
+    text-align: center;
+    border: solid 1px orange;
+}

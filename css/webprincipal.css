@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+    background-image: url("imagenes/fondo2.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+h1 {
+    background-color: rgb(24, 23, 23);
+    color: white;
+    margin: 0px;
+    padding: 10px 0px 10px 20px;
+    
+}
+h1 a{
+    text-decoration: none;
+    font-size: medium;
+    padding: 5px;
+    background-color: rgb(255, 165, 0);
+    color: black;
+    position: absolute;
+    margin-top: 6px;
+    left: 80%;
+}
+h1 a:hover{
+    background-color: rgb(250, 188, 72);
+    color:white;
+}
+ul{
+    display: flex;
+    margin: 0px;
+    background-color: orange;
+    /*padding: 30px 20px 30px 20px;*/
+    font-size: larger;
+    text-decoration: none;
+    justify-content: space-around;
+    border-bottom:solid 1px rgb(125, 125, 125);
+}
+li {
+    display:flex;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    background-color: orange;
+    padding: 20px 10px 20px 10px;
+    
+     
+
+}
+li a:hover{
+    background-color: rgb(250, 188, 72);
+    color:white;
+
+}
